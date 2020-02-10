@@ -1,4 +1,4 @@
-use ff::{BitIterator, Field, PrimeField, PrimeFieldRepr, SqrtField};
+use fff::{BitIterator, Field, PrimeField, PrimeFieldRepr, SqrtField};
 
 use super::{edwards, JubjubEngine, JubjubParams, PrimeOrder, Unknown};
 

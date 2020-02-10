@@ -19,7 +19,7 @@
 
 use paired::Engine;
 
-use ff::{Field, PrimeField, SqrtField};
+use fff::{Field, PrimeField, SqrtField};
 
 use crate::group_hash::group_hash;
 

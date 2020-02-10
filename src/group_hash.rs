@@ -1,6 +1,6 @@
 use crate::jubjub::{edwards, JubjubEngine, PrimeOrder};
 
-use ff::PrimeField;
+use fff::PrimeField;
 
 use crate::constants;
 use blake2s_simd::Params;

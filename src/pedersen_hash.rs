@@ -2,7 +2,7 @@ use std::convert::TryInto;
 use std::is_x86_feature_detected;
 use std::slice;
 
-use ff::{Field, PrimeField, PrimeFieldRepr};
+use fff::{Field, PrimeField, PrimeFieldRepr};
 use lazy_static::lazy_static;
 #[cfg(target_arch = "x86_64")]
 use paired::bls12_381::Bls12;

@@ -115,7 +115,7 @@ mod test {
         boolean::{AllocatedBit, Boolean},
         test::*,
     };
-    use ff::PrimeField;
+    use fff::PrimeField;
     use paired::bls12_381::{Bls12, Fr};
     use rand::Rng;
     use rand_core::SeedableRng;
