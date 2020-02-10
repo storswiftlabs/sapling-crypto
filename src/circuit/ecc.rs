@@ -1,6 +1,6 @@
 use paired::Engine;
 
-use ff::Field;
+use fff::Field;
 
 use bellperson::{ConstraintSystem, SynthesisError};
 
@@ -668,7 +668,7 @@ mod test {
     use bellperson::gadgets::num::AllocatedNum;
     use bellperson::gadgets::test::*;
     use bellperson::ConstraintSystem;
-    use ff::{BitIterator, Field, PrimeField};
+    use fff::{BitIterator, Field, PrimeField};
     use paired::bls12_381::{Bls12, Fr};
     use rand::Rng;
     use rand_core::SeedableRng;

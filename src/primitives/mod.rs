@@ -1,4 +1,4 @@
-use ff::{Field, PrimeField, PrimeFieldRepr};
+use fff::{Field, PrimeField, PrimeFieldRepr};
 
 use crate::constants;
 

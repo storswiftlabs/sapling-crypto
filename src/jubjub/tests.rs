@@ -1,6 +1,6 @@
 use super::{edwards, montgomery, JubjubEngine, JubjubParams, PrimeOrder};
 
-use ff::{Field, LegendreSymbol, PrimeField, PrimeFieldRepr, SqrtField};
+use fff::{Field, LegendreSymbol, PrimeField, PrimeFieldRepr, SqrtField};
 
 use rand::Rng;
 use rand_core::SeedableRng;

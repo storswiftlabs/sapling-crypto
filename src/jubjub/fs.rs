@@ -1,5 +1,5 @@
 use byteorder::{ByteOrder, LittleEndian};
-use ff::{BitIterator, Field, PrimeField, PrimeFieldDecodingError, PrimeFieldRepr};
+use fff::{BitIterator, Field, PrimeField, PrimeFieldDecodingError, PrimeFieldRepr};
 
 use super::ToUniform;
 
@@ -53,9 +53,9 @@ fn test_neg_one() {
 }
 
 #[cfg(test)]
-use ff::LegendreSymbol::*;
+use fff::LegendreSymbol::*;
 #[cfg(test)]
-use ff::SqrtField;
+use fff::SqrtField;
 #[cfg(test)]
 use rand_core::SeedableRng;
 #[cfg(test)]
